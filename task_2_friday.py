@@ -11,6 +11,7 @@ def get_details():
         str_length = 5
         generated_pwd = ''.join(random.choice(characters) for i in range(str_length)
         password = user_details[0][:2] + user_details[1][-2:] + generated_pwd
+        return password                        
 
      # get users details
      status = True
