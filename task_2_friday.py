@@ -14,9 +14,9 @@ def get_details():
         return password                        
 
      # get users details
-     status = True
+    status = True
     container = []
-     while True:
+    while True:
           user_details = get_details()
          # display generated password
          password = ran_password(user_details)
