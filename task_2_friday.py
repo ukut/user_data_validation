@@ -26,7 +26,7 @@ while True:
   print("the password is: " + str(password))
 
   # ask if the user will like to continue
-  like_password = input(" are you satisfy with the password,if yes, enter: YES, or enter: NO, and supply your password ")
+  like_password = input(" are you satisfed with the password,if yes, enter: YES, or enter: NO, and supply your password ")
 
   password_loop  = True
   while password_loop:
@@ -39,13 +39,13 @@ while True:
 
     else:
       # enter password longer than or equal to 7
-      user_pwd = input("enter password greater than or equal to 7")
+      user_pwd = input("enter password greater than or equal to 7: ")
       
       #password length loop
       pwd_length = True
 
       while pwd_length:
-        if len(pwd_length) >= 7:
+        if len(user_pwd) >= 7:
           user_details.append(user_pwd)
         
           # add user details to the container
