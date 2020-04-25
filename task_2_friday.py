@@ -14,6 +14,7 @@ def random_password(user_details):
   str_length = 5
   generated_pwd = ''.join(random.choice(characters) for i in range(str_length))
   password = user_details[0][:2] + user_details[1][-2:] + generated_pwd
+  return password
 
 # get users details
 status = True
@@ -25,7 +26,7 @@ while True:
   print("the password is: " + str(password))
 
   # ask if the user will like to continue
-  like_password = input(" are you satisfy with the password,if yes, enter: YES, or enter: NO, and supply your password")
+  like_password = input(" are you satisfy with the password,if yes, enter: YES, or enter: NO, and supply your password ")
 
   password_loop  = True
   while password_loop:
