@@ -62,8 +62,8 @@ while True:
 new_user = input("will you like to enter a new user, Yes or No")
 if new_user == "NO":
   status = False
-  for items in  container:
-    print(items)
+  for item in  container:
+    print(item)
 else:
   status = True
 
