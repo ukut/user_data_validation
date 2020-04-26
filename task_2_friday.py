@@ -58,9 +58,9 @@ while True:
 
           user_pwd = input("enter password grater than or equal to 7: ")
 
-# new_user
-new_user = input("will you like to enter a new user, Yes or No")
-if new_user == "NO":
+# another_user
+another_user = input("will you like to enter another user, Yes or No")
+if another_user == "NO":
   status = False
   for item in  container:
     print(item)
